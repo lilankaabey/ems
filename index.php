@@ -26,23 +26,23 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Optional Theme -->
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Custome Styles -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- jQuery -->
+        <script src="js/jquery-3.2.1.min.js"></script>
         <!-- Minified JavaScript -->
         <script src="js/bootstrap.min.js"></script>
-        <!-- jQuery -->
-        <script src="js/bootstrap.min.js"></script>
+        
         <!-- Icon -->
-        <link rel="icon" href="">
+        <link rel="icon" href="#">
     </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-brand navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Logo</a>
+                    <a class="navbar-brand" href="index.php">Examination Management System</a>
                 </div>
-                <ul>
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-                </ul>
             </div>
         </nav>
         <!-- //Navigation -->
