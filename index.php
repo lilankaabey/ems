@@ -30,5 +30,21 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- jQuery -->
         <script src="js/bootstrap.min.js"></script>
+        <!-- Icon -->
+        <link rel="icon" href="">
     </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-brand navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <ul>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- //Navigation -->
+    </body>
 </html>
