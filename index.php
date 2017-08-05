@@ -35,6 +35,18 @@
         
         <!-- Icon -->
         <link rel="icon" href="#">
+        <!-- Style for this page -->
+        <style>
+            #logInIcon{
+                background-color: #333;
+                margin: 0px;
+                border: 5px solid #dce3e5;
+            }
+            #logInIcon > a > img {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation -->
@@ -46,5 +58,20 @@
             </div>
         </nav>
         <!-- //Navigation -->
+        
+        <!-- Middle section -->
+        <div class="container" style="margin-top: 80px;">
+            <div class="row" align="center" style="margin-bottom: 10px;">
+                <span>Examination Management System</span><br/>
+                <span>Faculty of Applied Sciences - SUSL</span>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4" id="logInIcon" align="center"><a href="admin/index.php"><img src="images/admin.png" height="300" width="auto"></a></div>
+                <div class="col-md-4 col-lg-4" id="logInIcon" align="center"><a href="lecturer/index.php"><img src="images/lecturer.png" height="300" width="auto"></a></div>
+                <div class="col-md-4 col-lg-4" id="logInIcon" align="center"><a href="student/index.php"><img src="images/student.png" height="300" width="auto"></a></div>
+            </div>
+        </div>
+        <!-- //Middle section -->
+    </body>
     </body>
 </html>
