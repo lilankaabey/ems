@@ -8,11 +8,14 @@ and open the template in the editor.
     Author     : Lilanka Ravinath
 */
 /* Add a dark background color with a little bit see-through */ 
+body {
+    background-color: #dce3e5;
+}
 .navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
-    opacity:0.8;
+    opacity:0.9;
 }
 
 /* Add a gray color to all navbar links */
