@@ -72,7 +72,7 @@
                     <input type="text" placeholder="Enter Username" name="uname" required>
                     <label><b>Password</b></label>
                     <input type="password" placeholder="Enter Password" name="psw" required>
-                    <button type="submit">Login</button>
+                    <button type="submit" class="logbutton">Login</button>
                     <input type="checkbox" checked="checked"> Remember me
                 </div>
                 <div class="container-fluid" style="background-color:#f1f1f1">
