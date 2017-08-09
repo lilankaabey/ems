@@ -32,7 +32,8 @@
         <script src="js/jquery-3.2.1.min.js"></script>
         <!-- Minified JavaScript -->
         <script src="js/bootstrap.min.js"></script>
-        
+        <!-- Fonts Link -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,100,700,900" rel="stylesheet" type="text/css">
         <!-- Icon -->
         <link rel="icon" href="#">
         <!-- Style for this page -->
