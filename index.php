@@ -24,8 +24,6 @@
         <!--[endif]-->
         <!-- Minified CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Optional Theme -->
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <!-- Custome Styles -->
         <link rel="stylesheet" href="css/styles.css">
         <!-- jQuery -->
