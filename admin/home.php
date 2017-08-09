@@ -44,7 +44,9 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.php">Examination Management System</a>
                 </div>
+                
                 <ul class="nav navbar-nav navbar-right">
+                    <li class=""><a href="#"><span class="glyphicon glyphicon-user"></span> &nbsp;Admin Panel</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Account
                         <span class="caret"></span></a>
@@ -53,7 +55,7 @@
                             <li><a href="#"><span class="glyphicon glyphicon-lock"></span> &nbsp;Change Password</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-off"></span> &nbsp;Logout</a></li>
                         </ul>
-                    </li>
+                    </li>   
                 </ul>
             </div>
         </nav>
