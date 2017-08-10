@@ -156,3 +156,20 @@ button:hover {
     }
 }
 
+/******* ********/
+.list-group-item {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    border: none;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.list-group-item:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+a.list-group-item{
+    color: #fff;
+}

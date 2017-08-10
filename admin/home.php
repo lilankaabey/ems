@@ -61,6 +61,25 @@
         </nav>
         <!-- //Navigation -->
         
+        <!-- Middle Area -->
+        <div class="container-fluid" style="margin-top: 50px;">
+            <div class="row" style="background-color: #2d2d30;">
+                <div class="col-md-3 list-group" style="padding: 0;">
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-globe"></span> &nbsp;Dashboard</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-file"></span> &nbsp;Department</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-tag"></span> &nbsp;Degree Programme</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-user"></span> &nbsp;Lecturer</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-user"></span> &nbsp;Student</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-paperclip"></span> &nbsp;Exam</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-list"></span> &nbsp;Notice</a>
+                </div>
+                <div class="col-md-9" style="background-color: #dce3e5;">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- //Middle Area -->
+        
     </body>
 </html>
 
