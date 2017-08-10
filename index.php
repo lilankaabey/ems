@@ -45,6 +45,9 @@
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
+            .titleName {
+                font-size: 3em;
+            }
         </style>
     </head>
     <body>
@@ -61,8 +64,8 @@
         <!-- Middle section -->
         <div class="container" style="margin-top: 80px;">
             <div class="row" align="center" style="margin-bottom: 10px;">
-                <span>Examination Management System</span><br/>
-                <span>Faculty of Applied Sciences - SUSL</span>
+                <span class="titleName">Examination Management System</span><br/>
+                <span class="titleName">Faculty of Applied Sciences - SUSL</span>
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4" id="logInIcon" align="center"><a href="admin/index.php"><img src="images/admin.png" height="300" width="auto"></a></div>

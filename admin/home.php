@@ -36,6 +36,17 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,100,700,900" rel="stylesheet" type="text/css">
         <!-- Icon -->
         <link rel="icon" href="#">
+        <style>
+            .dashboardDiv {
+                margin: 10px;
+                color: #fff;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                box-sizing: border-box;
+                background-color: #122b40;
+                font-size: 2em;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation -->
@@ -67,14 +78,29 @@
                 <div class="col-md-3 list-group" style="padding: 0;">
                     <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-globe"></span> &nbsp;Dashboard</a>
                     <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-file"></span> &nbsp;Department</a>
-                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-tag"></span> &nbsp;Degree Programme</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-education"></span> &nbsp;Degree Programme</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-tags"></span> &nbsp;&nbsp;Subject</a>
                     <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-user"></span> &nbsp;Lecturer</a>
                     <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-user"></span> &nbsp;Student</a>
                     <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-paperclip"></span> &nbsp;Exam</a>
+                    <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-ok-circle"></span> &nbsp;Result</a>
                     <a href="home.php" class="list-group-item"><span class="glyphicon glyphicon-list"></span> &nbsp;Notice</a>
                 </div>
-                <div class="col-md-9" style="background-color: #dce3e5;">
-                    
+                <div class="col-md-9" style="background-color: #dce3e5; padding: 0;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="font-size: 1.4em;">
+                            <span class="glyphicon glyphicon-globe"></span> &nbsp;Admin Dashboard
+                        </div>
+                    </div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-globe"></span><br/>Dashboard</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-file"></span><br/>Department</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-education"></span><br/>Degree Programme</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-tags"></span><br/>Subject</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-user"></span><br/>Lecturer</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-user"></span><br/>Student</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-paperclip"></span><br/>Exam</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-ok-circle"></span><br/>Result</div>
+                    <div class="col-md-3 dashboardDiv" align="center"><span class="glyphicon glyphicon-list"></span><br/>Notice</div>
                 </div>
             </div>
         </div>
